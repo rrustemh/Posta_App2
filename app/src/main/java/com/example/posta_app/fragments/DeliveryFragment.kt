@@ -5,7 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
 import com.example.posta_app.R
+import com.example.posta_app.databinding.FragmentDeliveryBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -21,7 +23,8 @@ class DeliveryFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
-
+    private var _binding: FragmentDeliveryBinding? = null
+    private val binding get() = _binding!!
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -29,13 +32,19 @@ class DeliveryFragment : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
-
+    override fun onResume() {
+        super.onResume()
+        val cities = resources.getStringArray(R.array.cities)
+        var arrayAdapter = ArrayAdapter(requireContext(), R.layout.dropdown_layout, cities)
+        binding.cityInput.setAdapter(arrayAdapter)
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_delivery, container, false)
+        _binding = FragmentDeliveryBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
     companion object {

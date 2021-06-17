@@ -2,4 +2,13 @@
     <string name="app_name">Posta_App</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="cities">
+        <item>Prishtine</item>
+        <item>Mitrovice</item>
+        <item>Peje</item>
+        <item>Prizren</item>
+        <item>Ferizaj</item>
+        <item>Gjilan</item>
+        <item>Gjakove</item>
+    </string-array>
 </resources>
