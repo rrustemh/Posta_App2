@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import androidx.recyclerview.widget.RecyclerView
 import com.example.posta_app.R
 import com.example.posta_app.databinding.FragmentDeliveryBinding
 
@@ -31,6 +32,10 @@ class DeliveryFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+    }
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
     override fun onResume() {
         super.onResume()

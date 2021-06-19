@@ -5,8 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.posta_app.DeliveryItem
 import com.example.posta_app.R
+import com.example.posta_app.adapters.DeliveryAdapter
 import com.example.posta_app.databinding.FragmentDashboardBinding
 import com.example.posta_app.databinding.FragmentDeliveryBinding
 
@@ -26,7 +29,6 @@ class DashboardFragment : Fragment() {
     private var param2: String? = null
     private var _binding: FragmentDashboardBinding? = null
     private val binding get() = _binding!!
-    private val recyclerView: RecyclerView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,16 +37,37 @@ class DashboardFragment : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
-
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
         _binding = FragmentDashboardBinding.inflate(inflater, container, false)
+        binding.deliveriesRecyclerView.adapter = DeliveryAdapter(getList())
+        binding.deliveriesRecyclerView.layoutManager = LinearLayoutManager(binding.root.context)
+        binding.deliveriesRecyclerView.setHasFixedSize(true)
         return binding.root
     }
-
+    fun getList():List<DeliveryItem> {
+        val list = ArrayList<DeliveryItem>()
+        val item1 = DeliveryItem(1, "Rrustem Hyseni","Vushtrri Rr. Bahri Kuci Nr. 170", "049758874")
+        val item2 = DeliveryItem(2, "Ida Spahiu", "Prizren Rr. Mbreteresha Teute Nr. 123", "049123456")
+        val item3 = DeliveryItem(5, "Xhanan Shehu", "Rahovec Rr. Shehu Nr. 124", "045654234")
+        list += item1
+        list += item2
+        list += item3
+        list += item1
+        list += item2
+        list += item3
+        list += item1
+        list += item2
+        list += item3
+        return list
+    }
     companion object {
         /**
          * Use this factory method to create a new instance of
