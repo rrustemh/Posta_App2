@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/id_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/recieverName_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/id_textView"
+            android:text="Ilir Hyseni"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/address_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recieverName_textView"
+            android:layout_toEndOf="@id/id_textView"
+            android:text="Vushtrri, Rr. Bahri Kuci Nr. 170"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/horizontal_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/recieverName_textView"
+            android:src="@drawable/ic_horizontal" />
+
+        <TextView
+            android:id="@+id/phoneNumber_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/horizontal_Icon"
+            android:text="049434495"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
