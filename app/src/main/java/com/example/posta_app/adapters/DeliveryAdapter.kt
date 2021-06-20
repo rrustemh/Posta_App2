@@ -10,16 +10,8 @@ import com.example.posta_app.DeliveryItem
 import com.example.posta_app.R
 import com.example.posta_app.databinding.DeliveryItemBinding
 
-class DeliveryAdapter(private val deliveryItemList: List<DeliveryItem>) : RecyclerView.Adapter<DeliveryAdapter.DeliveryViewHolder>() {
-    class DeliveryViewHolder(itemBinding: DeliveryItemBinding) : RecyclerView.ViewHolder(itemBinding.root) {
-        val deliveryId: TextView = itemBinding.idTextView
-        val recieverName: TextView = itemBinding.recieverNameTextView
-        var address: TextView = itemBinding.addressTextView
-        val phoneNumber: TextView = itemBinding.phoneNumberTextView
-    }
-
+class DeliveryAdapter(private val deliveryItemList: List<DeliveryItem>, private val listener: OnItemClickListener) : RecyclerView.Adapter<DeliveryAdapter.DeliveryViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DeliveryViewHolder {
-        //val itemView = LayoutInflater.from(parent.context).inflate(R.layout.delivery_item, parent, false)
         val itemBinding = DeliveryItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return DeliveryViewHolder(itemBinding)
     }
@@ -35,4 +27,23 @@ class DeliveryAdapter(private val deliveryItemList: List<DeliveryItem>) : Recycl
     override fun getItemCount(): Int {
         return deliveryItemList.size
     }
+    inner class DeliveryViewHolder(itemBinding: DeliveryItemBinding) : RecyclerView.ViewHolder(itemBinding.root), View.OnClickListener {
+        val deliveryId: TextView = itemBinding.idTextView
+        val recieverName: TextView = itemBinding.recieverNameTextView
+        var address: TextView = itemBinding.addressTextView
+        val phoneNumber: TextView = itemBinding.phoneNumberTextView
+        init {
+            itemBinding.root.setOnClickListener (this)
+        }
+        override fun onClick(v: View?) {
+            val position = adapterPosition
+            if(position != RecyclerView.NO_POSITION) {
+                listener.OnItemClick(position)
+            }
+        }
+    }
+    interface OnItemClickListener {
+        fun OnItemClick(position: Int)
+    }
+
 }

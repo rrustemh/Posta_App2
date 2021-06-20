@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.posta_app.DeliveryItem
@@ -23,13 +24,13 @@ private const val ARG_PARAM2 = "param2"
  * Use the [DashboardFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class DashboardFragment : Fragment() {
+class DashboardFragment : Fragment(), DeliveryAdapter.OnItemClickListener {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
     private var _binding: FragmentDashboardBinding? = null
     private val binding get() = _binding!!
-
+    private var list: List<DeliveryItem> = getList()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -47,9 +48,13 @@ class DashboardFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         _binding = FragmentDashboardBinding.inflate(inflater, container, false)
-        binding.deliveriesRecyclerView.adapter = DeliveryAdapter(getList())
+        binding.deliveriesRecyclerView.adapter = DeliveryAdapter(list, this)
         binding.deliveriesRecyclerView.layoutManager = LinearLayoutManager(binding.root.context)
         binding.deliveriesRecyclerView.setHasFixedSize(true)
+        /*binding.button.setOnClickListener {
+            val action = DashboardFragmentDirections.actionDashboardFragmentToDeliveryDetailsFragment("1", "Rrustem Hyseni")
+            findNavController().navigate(action)
+        }*/
         return binding.root
     }
     fun getList():List<DeliveryItem> {
@@ -86,5 +91,10 @@ class DashboardFragment : Fragment() {
                     putString(ARG_PARAM2, param2)
                 }
             }
+    }
+
+    override fun OnItemClick(position: Int) {
+        val action = DashboardFragmentDirections.actionDashboardFragmentToDeliveryDetailsFragment("1", list[position].recieverName)
+        findNavController().navigate(action)
     }
 }

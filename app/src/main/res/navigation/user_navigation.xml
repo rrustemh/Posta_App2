@@ -14,11 +14,27 @@
         android:id="@+id/dashboardFragment"
         android:name="com.example.posta_app.fragments.DashboardFragment"
         android:label="fragment_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_deliveryDetailsFragment"
+            app:destination="@id/deliveryDetailsFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.posta_app.fragments.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@id/deliveryDetailsFragment"
+        android:name="com.example.posta_app.fragments.DeliveryDetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_delivery_details">
+        <argument
+            android:name="Id"
+            app:argType="string" />
+        <argument
+            android:name="recieverName"
+            app:argType="string" />
+    </fragment>
 </navigation>
