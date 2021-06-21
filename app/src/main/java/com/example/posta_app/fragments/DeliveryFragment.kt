@@ -6,9 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.Toast
+import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.posta_app.R
+import com.example.posta_app.data.DeliveryItem
 import com.example.posta_app.databinding.FragmentDeliveryBinding
+import com.example.posta_app.viewModels.DeliveryViewModel
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,6 +29,7 @@ class DeliveryFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
+    private lateinit var deliveryViewModel: DeliveryViewModel
     private var _binding: FragmentDeliveryBinding? = null
     private val binding get() = _binding!!
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,9 +55,24 @@ class DeliveryFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         _binding = FragmentDeliveryBinding.inflate(inflater, container, false)
+        deliveryViewModel = ViewModelProvider(this).get(DeliveryViewModel::class.java)
+        binding.addDelivery.setOnClickListener {
+            AddDelivery()
+        }
         return binding.root
     }
-
+    private fun AddDelivery(){
+        val recieverName = binding.nameInput.text.toString()
+        val address = "Rr. bahri kuci nr. 170"
+        val city = binding.cityInput.text.toString()
+        val phoneNumber = binding.phoneNumberInput.text.toString()
+        val senderId = 10
+        val deliveryStatus = "Registered"
+        val delivery = DeliveryItem(0, recieverName,address, city, phoneNumber, deliveryStatus, senderId)
+        deliveryViewModel.addDelivery(delivery)
+        Toast.makeText(context, "Succesfully added the delivery", Toast.LENGTH_LONG).show()
+        findNavController().navigate(R.id.dashboardFragment)
+    }
     companion object {
         /**
          * Use this factory method to create a new instance of

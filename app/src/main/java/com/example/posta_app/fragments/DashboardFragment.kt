@@ -5,14 +5,15 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.example.posta_app.DeliveryItem
-import com.example.posta_app.R
+import com.example.posta_app.data.DeliveryItem
 import com.example.posta_app.adapters.DeliveryAdapter
 import com.example.posta_app.databinding.FragmentDashboardBinding
-import com.example.posta_app.databinding.FragmentDeliveryBinding
+import com.example.posta_app.viewModels.DeliveryViewModel
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -28,6 +29,7 @@ class DashboardFragment : Fragment(), DeliveryAdapter.OnItemClickListener {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
+    private lateinit var deliveryViewModel: DeliveryViewModel
     private var _binding: FragmentDashboardBinding? = null
     private val binding get() = _binding!!
     private var list: List<DeliveryItem> = getList()
@@ -48,29 +50,26 @@ class DashboardFragment : Fragment(), DeliveryAdapter.OnItemClickListener {
     ): View? {
         // Inflate the layout for this fragment
         _binding = FragmentDashboardBinding.inflate(inflater, container, false)
-        binding.deliveriesRecyclerView.adapter = DeliveryAdapter(list, this)
+        deliveryViewModel = ViewModelProvider(this).get(DeliveryViewModel::class.java)
+        val adapter = DeliveryAdapter(this)
+        binding.deliveriesRecyclerView.adapter = adapter
         binding.deliveriesRecyclerView.layoutManager = LinearLayoutManager(binding.root.context)
         binding.deliveriesRecyclerView.setHasFixedSize(true)
-        /*binding.button.setOnClickListener {
-            val action = DashboardFragmentDirections.actionDashboardFragmentToDeliveryDetailsFragment("1", "Rrustem Hyseni")
-            findNavController().navigate(action)
-        }*/
+        deliveryViewModel.allDeliveries.observe(viewLifecycleOwner, Observer {
+            delivery -> adapter.setDeliveries(delivery)
+        })
         return binding.root
     }
     fun getList():List<DeliveryItem> {
         val list = ArrayList<DeliveryItem>()
-        val item1 = DeliveryItem(1, "Rrustem Hyseni","Vushtrri Rr. Bahri Kuci Nr. 170", "049758874")
-        val item2 = DeliveryItem(2, "Ida Spahiu", "Prizren Rr. Mbreteresha Teute Nr. 123", "049123456")
-        val item3 = DeliveryItem(5, "Xhanan Shehu", "Rahovec Rr. Shehu Nr. 124", "045654234")
+        val item1 = DeliveryItem(1, "Rrustem Hyseni","Vushtrri Rr. Bahri Kuci Nr. 170", "Prishtine", "049758874", "Registered", 10)
+        val item2 = DeliveryItem(2, "Ida Spahiu", "Prizren Rr. Mbreteresha Teute Nr. 123", "Prishtine", "49123456", "Registered", 10)
         list += item1
         list += item2
-        list += item3
         list += item1
         list += item2
-        list += item3
         list += item1
         list += item2
-        list += item3
         return list
     }
     companion object {

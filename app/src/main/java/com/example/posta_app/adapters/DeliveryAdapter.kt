@@ -3,14 +3,13 @@ package com.example.posta_app.adapters
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.posta_app.DeliveryItem
-import com.example.posta_app.R
+import com.example.posta_app.data.DeliveryItem
 import com.example.posta_app.databinding.DeliveryItemBinding
 
-class DeliveryAdapter(private val deliveryItemList: List<DeliveryItem>, private val listener: OnItemClickListener) : RecyclerView.Adapter<DeliveryAdapter.DeliveryViewHolder>() {
+class DeliveryAdapter(private val listener: OnItemClickListener) : RecyclerView.Adapter<DeliveryAdapter.DeliveryViewHolder>() {
+    private var deliveryItemList = emptyList<DeliveryItem>()
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DeliveryViewHolder {
         val itemBinding = DeliveryItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return DeliveryViewHolder(itemBinding)
@@ -41,6 +40,10 @@ class DeliveryAdapter(private val deliveryItemList: List<DeliveryItem>, private 
                 listener.OnItemClick(position)
             }
         }
+    }
+    fun setDeliveries(deliveries: List<DeliveryItem>) {
+        this.deliveryItemList = deliveries
+        notifyDataSetChanged()
     }
     interface OnItemClickListener {
         fun OnItemClick(position: Int)
