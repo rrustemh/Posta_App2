@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_delivery.xml",
+        "source": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\src\\main\\res\\layout\\fragment_delivery.xml"
+    },
+    {
+        "merged": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\delivery_item.xml",
+        "source": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\src\\main\\res\\layout\\delivery_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_delivery_details.xml",
+        "source": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\src\\main\\res\\layout\\fragment_delivery_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dropdown_layout.xml",
+        "source": "C:\\Users\\rrust\\AndroidStudioProjects\\Posta_App\\app\\src\\main\\res\\layout\\dropdown_layout.xml"
+    }
+]

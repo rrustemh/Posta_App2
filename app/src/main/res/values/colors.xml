@@ -8,4 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="custom_green">#11cfc5</color>
+    <color name="login_bk_color">#11cfc5</color>
 </resources>

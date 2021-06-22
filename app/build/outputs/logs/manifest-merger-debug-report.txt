@@ -1,0 +1,291 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.github.yogacp:android-viewbinding:1.0.3] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\c0600f2ae14aeb1b9fb9537532eeaa51\android-viewbinding-1.0.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.databinding:viewbinding:4.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\f460505aad786dd97d0b6fe231cae784\viewbinding-4.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\a777218b10bca373aba78545e1e28e41\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ee5ab9d10a403b6f98598119a70d6387\fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ccf911e529185fafb77d0b7d7a6fd3be\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ebecd01f96f2366169f78647f3febdb1\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\652db7c831b0f2792fc55d4bcf001239\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\275d4dc3ea1c987c0f51b26d65af6c3e\activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\29464ffeb3321b898a1ea798a83d805c\core-ktx-1.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.room:room-ktx:2.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\16cefc3d73111dc59e25f0fd119e1e6d\room-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\e436758a1189c534f49679a11ce0aaf7\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\9ef3141af8b1761a352f44906405fa05\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\c42349282757188634910246dc47a0cf\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\36c7ae7f62aa46836a76489e3b91c924\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\dc84c2ff4935035c3d364579118c0be6\material-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\175fcf46707dad0acb8ba101c218b7d1\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\d00f67b4ea1d712326255f9f33947b5c\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\0f8e13d78b1629957509b5a46692e684\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3294c8af57e3dbd6161b1fbc37634100\room-runtime-2.3.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\48f56cd7f59633028795d1b5369eaac0\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\85a173738f19ac36f103f6fbc70d2f0a\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ff3ad075f4ea77d1b8a78663f75688c1\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\e6c79e1b6a49a2a930b21de1b5adb947\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3bcc39c6af04e9d56f3e0dd8e585ac1f\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\0ac1fb8489d530b8d7492f9de277024a\activity-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\baa58ab6847ef6695aa7512275a4781a\appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\5ea80b33cc483357f8347b0d1a4ff895\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\de41c2c68d55c564391f4640b0133b0b\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\a7d2231f05a25b97d4dfe914e0e9fa58\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\f2b905a0f91e9f2e99e31ab6ab0f1012\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\2c80e5ceabfb702cd41ea8b28598479f\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\a4e74fc16388af336028454d737d3cd4\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3b1c1c495dc4336d9fe2f7b644527558\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8015b75014f754d7029285dae5a604c3\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\39496be70c6912c2dec2f3c00150c072\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\df18b010ce978b06b2722cf4078b46ea\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\cd068787bf33ca61f9b32c5aca50de06\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\9bf4c5dc0cd535f058777cadd6969f9f\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\62a0cff9738f5b5ce60fee22ed2c56e9\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\0874cfee6ffc68d1ea84204b1084a19e\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\74238503eece76d9043aee23315c2bed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3ea17c8facf45b46c6c1bfe9c0523268\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\d45a7547e586e69161072c91932e0fb6\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8df1e1302bbd57202c921e56a57d0828\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\7aab9d61fedbf47b9ae6b1f7da978a2c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ead01d1d66bf3b77131e3909e6be0fd0\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\e7178546f1e3279f643a39ca2be9554b\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3b59bf3665206600f313d71a016ae724\lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ee6eeba03dea6a15b245461bdbf41fff\lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\a625bf9a76c154ef9db624597e6c9111\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8c159e53412ae91294749ed261cef1b0\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\b89ca83e6a660bf36fe9e1fe6445e387\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\e86179bd34bc325ca33976575170c15e\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\23617628e8baf32f2f07021abfddfa33\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\18cad4df1c016be44a795cc1e26ae694\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\f9db9cc68063c4611e19960081ee9cfe\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\376fa47efdeffcfd9d0307d19778ca71\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\b94a676e13ce995ded8fe75b081a82b6\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8c2b3d1e799a8e2b05a7bb892dacba80\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\81a6e272546313181bc7238449999b19\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\53f1acbb170b5e4d1ed51300394dc0f8\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\50c449303c4f5f0781e255f797221ff2\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\7014e10467aaf9336d1d804a196327ac\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\97fc757c51874cd3aa1e395369f97264\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\dc84c2ff4935035c3d364579118c0be6\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\dc84c2ff4935035c3d364579118c0be6\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\175fcf46707dad0acb8ba101c218b7d1\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\175fcf46707dad0acb8ba101c218b7d1\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3294c8af57e3dbd6161b1fbc37634100\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3294c8af57e3dbd6161b1fbc37634100\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\48f56cd7f59633028795d1b5369eaac0\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\48f56cd7f59633028795d1b5369eaac0\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.core:core:1.5.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8df1e1302bbd57202c921e56a57d0828\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8df1e1302bbd57202c921e56a57d0828\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3b59bf3665206600f313d71a016ae724\lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3b59bf3665206600f313d71a016ae724\lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\b94a676e13ce995ded8fe75b081a82b6\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\b94a676e13ce995ded8fe75b081a82b6\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8df1e1302bbd57202c921e56a57d0828\core-1.5.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:11:9-47
+activity#com.example.posta_app.MainActivity
+ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+MERGED from [com.github.yogacp:android-viewbinding:1.0.3] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\c0600f2ae14aeb1b9fb9537532eeaa51\android-viewbinding-1.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yogacp:android-viewbinding:1.0.3] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\c0600f2ae14aeb1b9fb9537532eeaa51\android-viewbinding-1.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:viewbinding:4.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\f460505aad786dd97d0b6fe231cae784\viewbinding-4.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\f460505aad786dd97d0b6fe231cae784\viewbinding-4.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\a777218b10bca373aba78545e1e28e41\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\a777218b10bca373aba78545e1e28e41\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ee5ab9d10a403b6f98598119a70d6387\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ee5ab9d10a403b6f98598119a70d6387\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ccf911e529185fafb77d0b7d7a6fd3be\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ccf911e529185fafb77d0b7d7a6fd3be\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ebecd01f96f2366169f78647f3febdb1\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ebecd01f96f2366169f78647f3febdb1\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\652db7c831b0f2792fc55d4bcf001239\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\652db7c831b0f2792fc55d4bcf001239\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\275d4dc3ea1c987c0f51b26d65af6c3e\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\275d4dc3ea1c987c0f51b26d65af6c3e\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\29464ffeb3321b898a1ea798a83d805c\core-ktx-1.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\29464ffeb3321b898a1ea798a83d805c\core-ktx-1.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-ktx:2.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\16cefc3d73111dc59e25f0fd119e1e6d\room-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\16cefc3d73111dc59e25f0fd119e1e6d\room-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\e436758a1189c534f49679a11ce0aaf7\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\e436758a1189c534f49679a11ce0aaf7\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\9ef3141af8b1761a352f44906405fa05\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\9ef3141af8b1761a352f44906405fa05\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\c42349282757188634910246dc47a0cf\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\c42349282757188634910246dc47a0cf\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\36c7ae7f62aa46836a76489e3b91c924\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\36c7ae7f62aa46836a76489e3b91c924\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\dc84c2ff4935035c3d364579118c0be6\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\dc84c2ff4935035c3d364579118c0be6\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\175fcf46707dad0acb8ba101c218b7d1\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\175fcf46707dad0acb8ba101c218b7d1\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\d00f67b4ea1d712326255f9f33947b5c\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\d00f67b4ea1d712326255f9f33947b5c\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\0f8e13d78b1629957509b5a46692e684\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\0f8e13d78b1629957509b5a46692e684\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3294c8af57e3dbd6161b1fbc37634100\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3294c8af57e3dbd6161b1fbc37634100\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\48f56cd7f59633028795d1b5369eaac0\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\48f56cd7f59633028795d1b5369eaac0\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\85a173738f19ac36f103f6fbc70d2f0a\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\85a173738f19ac36f103f6fbc70d2f0a\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ff3ad075f4ea77d1b8a78663f75688c1\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ff3ad075f4ea77d1b8a78663f75688c1\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\e6c79e1b6a49a2a930b21de1b5adb947\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\e6c79e1b6a49a2a930b21de1b5adb947\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3bcc39c6af04e9d56f3e0dd8e585ac1f\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3bcc39c6af04e9d56f3e0dd8e585ac1f\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\0ac1fb8489d530b8d7492f9de277024a\activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\0ac1fb8489d530b8d7492f9de277024a\activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\baa58ab6847ef6695aa7512275a4781a\appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\baa58ab6847ef6695aa7512275a4781a\appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\5ea80b33cc483357f8347b0d1a4ff895\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\5ea80b33cc483357f8347b0d1a4ff895\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\de41c2c68d55c564391f4640b0133b0b\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\de41c2c68d55c564391f4640b0133b0b\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\a7d2231f05a25b97d4dfe914e0e9fa58\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\a7d2231f05a25b97d4dfe914e0e9fa58\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\f2b905a0f91e9f2e99e31ab6ab0f1012\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\f2b905a0f91e9f2e99e31ab6ab0f1012\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\2c80e5ceabfb702cd41ea8b28598479f\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\2c80e5ceabfb702cd41ea8b28598479f\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\a4e74fc16388af336028454d737d3cd4\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\a4e74fc16388af336028454d737d3cd4\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3b1c1c495dc4336d9fe2f7b644527558\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3b1c1c495dc4336d9fe2f7b644527558\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8015b75014f754d7029285dae5a604c3\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8015b75014f754d7029285dae5a604c3\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\39496be70c6912c2dec2f3c00150c072\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\39496be70c6912c2dec2f3c00150c072\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\df18b010ce978b06b2722cf4078b46ea\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\df18b010ce978b06b2722cf4078b46ea\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\cd068787bf33ca61f9b32c5aca50de06\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\cd068787bf33ca61f9b32c5aca50de06\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\9bf4c5dc0cd535f058777cadd6969f9f\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\9bf4c5dc0cd535f058777cadd6969f9f\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\62a0cff9738f5b5ce60fee22ed2c56e9\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\62a0cff9738f5b5ce60fee22ed2c56e9\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\0874cfee6ffc68d1ea84204b1084a19e\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\0874cfee6ffc68d1ea84204b1084a19e\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\74238503eece76d9043aee23315c2bed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\74238503eece76d9043aee23315c2bed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3ea17c8facf45b46c6c1bfe9c0523268\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3ea17c8facf45b46c6c1bfe9c0523268\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\d45a7547e586e69161072c91932e0fb6\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\d45a7547e586e69161072c91932e0fb6\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8df1e1302bbd57202c921e56a57d0828\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8df1e1302bbd57202c921e56a57d0828\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\7aab9d61fedbf47b9ae6b1f7da978a2c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\7aab9d61fedbf47b9ae6b1f7da978a2c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ead01d1d66bf3b77131e3909e6be0fd0\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ead01d1d66bf3b77131e3909e6be0fd0\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\e7178546f1e3279f643a39ca2be9554b\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\e7178546f1e3279f643a39ca2be9554b\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3b59bf3665206600f313d71a016ae724\lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3b59bf3665206600f313d71a016ae724\lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ee6eeba03dea6a15b245461bdbf41fff\lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\ee6eeba03dea6a15b245461bdbf41fff\lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\a625bf9a76c154ef9db624597e6c9111\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\a625bf9a76c154ef9db624597e6c9111\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8c159e53412ae91294749ed261cef1b0\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8c159e53412ae91294749ed261cef1b0\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\b89ca83e6a660bf36fe9e1fe6445e387\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\b89ca83e6a660bf36fe9e1fe6445e387\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\e86179bd34bc325ca33976575170c15e\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\e86179bd34bc325ca33976575170c15e\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\23617628e8baf32f2f07021abfddfa33\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\23617628e8baf32f2f07021abfddfa33\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\18cad4df1c016be44a795cc1e26ae694\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\18cad4df1c016be44a795cc1e26ae694\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\f9db9cc68063c4611e19960081ee9cfe\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\f9db9cc68063c4611e19960081ee9cfe\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\376fa47efdeffcfd9d0307d19778ca71\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\376fa47efdeffcfd9d0307d19778ca71\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\b94a676e13ce995ded8fe75b081a82b6\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\b94a676e13ce995ded8fe75b081a82b6\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8c2b3d1e799a8e2b05a7bb892dacba80\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\8c2b3d1e799a8e2b05a7bb892dacba80\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\81a6e272546313181bc7238449999b19\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\81a6e272546313181bc7238449999b19\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\53f1acbb170b5e4d1ed51300394dc0f8\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\53f1acbb170b5e4d1ed51300394dc0f8\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\50c449303c4f5f0781e255f797221ff2\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\50c449303c4f5f0781e255f797221ff2\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\7014e10467aaf9336d1d804a196327ac\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\7014e10467aaf9336d1d804a196327ac\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\97fc757c51874cd3aa1e395369f97264\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\97fc757c51874cd3aa1e395369f97264\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rrust\AndroidStudioProjects\Posta_App\app\src\main\AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3294c8af57e3dbd6161b1fbc37634100\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3294c8af57e3dbd6161b1fbc37634100\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3294c8af57e3dbd6161b1fbc37634100\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3294c8af57e3dbd6161b1fbc37634100\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3b59bf3665206600f313d71a016ae724\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3b59bf3665206600f313d71a016ae724\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3b59bf3665206600f313d71a016ae724\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3b59bf3665206600f313d71a016ae724\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rrust\.gradle\caches\transforms-2\files-2.1\3b59bf3665206600f313d71a016ae724\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79

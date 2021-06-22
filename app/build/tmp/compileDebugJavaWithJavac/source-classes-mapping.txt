@@ -1,0 +1,24 @@
+com/example/posta_app/data/AppDatabase_Impl.java
+ com.example.posta_app.data.AppDatabase_Impl
+ com.example.posta_app.data.AppDatabase_Impl$1
+com/example/posta_app/data/DeliveryDao_Impl.java
+ com.example.posta_app.data.DeliveryDao_Impl
+ com.example.posta_app.data.DeliveryDao_Impl$1
+ com.example.posta_app.data.DeliveryDao_Impl$2
+ com.example.posta_app.data.DeliveryDao_Impl$3
+com/example/posta_app/BuildConfig.java
+ com.example.posta_app.BuildConfig
+com/example/posta_app/databinding/DeliveryItemBinding.java
+ com.example.posta_app.databinding.DeliveryItemBinding
+com/example/posta_app/databinding/FragmentProfileBinding.java
+ com.example.posta_app.databinding.FragmentProfileBinding
+com/example/posta_app/databinding/FragmentDeliveryBinding.java
+ com.example.posta_app.databinding.FragmentDeliveryBinding
+com/example/posta_app/databinding/ActivityMainBinding.java
+ com.example.posta_app.databinding.ActivityMainBinding
+com/example/posta_app/databinding/DropdownLayoutBinding.java
+ com.example.posta_app.databinding.DropdownLayoutBinding
+com/example/posta_app/databinding/FragmentDeliveryDetailsBinding.java
+ com.example.posta_app.databinding.FragmentDeliveryDetailsBinding
+com/example/posta_app/databinding/FragmentDashboardBinding.java
+ com.example.posta_app.databinding.FragmentDashboardBinding

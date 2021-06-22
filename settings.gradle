@@ -1,0 +1,2 @@
+rootProject.name = "Posta_App"
+include ':app'
