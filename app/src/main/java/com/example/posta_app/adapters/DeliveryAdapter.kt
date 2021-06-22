@@ -15,6 +15,8 @@ class DeliveryAdapter(private val listener: OnItemClickListener) : RecyclerView.
         return DeliveryViewHolder(itemBinding)
     }
 
+    // 1
+
     override fun onBindViewHolder(holder: DeliveryViewHolder, position: Int) {
         val currentItem = deliveryItemList[position]
         holder.deliveryId.text = currentItem.id.toString()
